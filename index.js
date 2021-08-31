@@ -8,7 +8,9 @@ const {
   WAKATIME_API_KEY: wakatimeApiKey
 } = process.env;
 
-console.log(gistId, githubToken, wakatimeApiKey)
+console.log(gistId)
+
+console.log('githubToken:', githubToken) 
 
 const wakatime = new WakaTimeClient(wakatimeApiKey);
 
