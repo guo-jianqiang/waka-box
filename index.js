@@ -8,11 +8,6 @@ const {
   WAKATIME_API_KEY: wakatimeApiKey
 } = process.env;
 
-console.log(gistId)
-console.log(githubToken)
-
-console.log('GITHUB_WORKFLOW:', process.env.GITHUB_WORKFLOW) 
-
 const wakatime = new WakaTimeClient(wakatimeApiKey);
 
 const octokit = new Octokit({ auth: `token ${githubToken}` });
