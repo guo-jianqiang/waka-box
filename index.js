@@ -9,6 +9,7 @@ const {
 } = process.env;
 
 console.log(gistId)
+console.log(githubToken)
 
 console.log('GITHUB_WORKFLOW:', process.env.GITHUB_WORKFLOW) 
 
