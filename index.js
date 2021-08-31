@@ -10,7 +10,7 @@ const {
 
 console.log(gistId)
 
-console.log('githubToken:', githubToken) 
+console.log('GITHUB_WORKFLOW:', process.env.GITHUB_WORKFLOW) 
 
 const wakatime = new WakaTimeClient(wakatimeApiKey);
 
